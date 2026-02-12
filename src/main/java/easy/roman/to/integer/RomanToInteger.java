@@ -1,4 +1,4 @@
-package roman.to.integer;
+package easy.roman.to.integer;
 
 public class RomanToInteger {
 

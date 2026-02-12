@@ -1,4 +1,4 @@
-package palindrome.number;
+package easy.palindrome.number;
 
 public class PalindromeNumber {
 
