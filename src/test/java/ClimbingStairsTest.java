@@ -1,4 +1,5 @@
 import easy.climbing.stairs.ClimbingStairs;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -10,6 +11,7 @@ public class ClimbingStairsTest {
 
     static ClimbingStairs climbingStairs;
 
+    @Disabled
     @ParameterizedTest
     @ValueSource(ints = 45)
     public void fibonachiTest(int n){

@@ -12,7 +12,7 @@ public class AddBinaryTest {
 
     static AddBinary addBinary;
 
-@Disabled
+    @Disabled
     @ParameterizedTest
     @CsvSource({"11, 1, 100"})
     public void sumTest(String a, String b, String result) {
